@@ -17,10 +17,14 @@ Number of Ratings : 20000263
 
 ### How to Run?
 To run You need DataBricks community Account.(Free 6GB Cluster) :)
+
 import this notebook, And run-all. 
+
 It will recommend you some movies. But Hey don't you want movie recommendation for yourself. :)
+
 #### Giving Inputs to the recommender.
-You need to fill in your ratings:
+You need to fill in your ratings: TopMovies has top 100 movies with their movieId, last entry is you rating, here I have given 3 for movieId 318.
+
 my_user_id = 0
 
 my_rated_movies = [
